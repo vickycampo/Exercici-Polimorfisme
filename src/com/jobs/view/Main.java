@@ -21,7 +21,7 @@ public class Main {
 		
 		String allEmployees=controller.getAllEmployees();
 		
-		System.out.println("EMPLOYEES: " + allEmployees + " \n");
+		System.out.println("EMPLOYEES: \n" + allEmployees + " \n");
 		
 	}
 
