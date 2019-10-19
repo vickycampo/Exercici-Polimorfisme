@@ -17,20 +17,6 @@ public class Volunteer extends AbsStaffMember {
 		totalPaid = paymentRate.pay(salaryPerMonth);
 		System.out.println("Voluntarios no reciben sueldo.");
 	}
-	@Override
-	public String toString()
-	{
-		StringBuilder sb = new StringBuilder();
-		sb.append("Nombre: ")
-				.append(name)
-				.append("\n")
-				.append("Dirección: ")
-				.append(address)
-				.append("\n")
-				.append("Teléfono: ")
-				.append(phone)
-				.append("\n").append("\n");
-		return (sb.toString());
-	}
+
 
 }

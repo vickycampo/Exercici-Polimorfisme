@@ -23,19 +23,4 @@ public class Employee extends AbsStaffMember {
 		System.out.println( "Sueldo enviado: " + totalPaid );
 	}
 
-	@Override
-	public String toString()
-	{
-		StringBuilder sb = new StringBuilder();
-		sb.append("Nombre: ")
-				.append(name)
-				.append("\n")
-				.append("Dirección: ")
-				.append(address)
-				.append("\n")
-				.append("Teléfono: ")
-				.append(phone)
-				.append("\n").append("\n");
-		return (sb.toString());
-	}
 }
